@@ -14,9 +14,7 @@ let num=[2,5,8,12]
 let square=num.map(num=>num**2)
 console.log(square)
 
-let greater=square.filter((a)=>{
-    return a>50
-})
+let greater=square.filter((a)=>a>50)
 console.log(greater)
 let sum=square.reduce((a,b)=>a+b)
 console.log(sum)

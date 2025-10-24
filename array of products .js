@@ -24,10 +24,12 @@ console.log(name)
 let discounted=products.map(products=>products.price*80/100)
 console.log(discounted)
 
-let filter=discounted.filter((a)=>{
-    return a>20
-})
-console.log(filter)
+let filter=discounted.filter((a)=> a>20)
+let productName=[]
+for(i of filter){
+  productName.push(i.name)
+}
+console.log(productName)
 
 let total=discounted.reduce((a,b)=>a+b)
 console.log(total)
