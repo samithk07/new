@@ -71,8 +71,8 @@ console.log("CUSTOMER NAME WHO HAS PURCHASED ABOVE 200 : " +   customerNameArray
 function string(value){
   return `Customer ${value.customer} has an order of ${value.total} and its status is ${value.status}`
 }
-orders.forEach(order=>
-  console.log(string(order)))
+orders.forEach(a=>
+  console.log(string(a)))
 
 
 

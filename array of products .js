@@ -34,3 +34,5 @@ console.log(productName)
 let total=discounted.reduce((a,b)=>a+b)
 console.log(total)
 
+
+
